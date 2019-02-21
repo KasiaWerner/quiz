@@ -1,4 +1,3 @@
-(function() {
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -102,4 +101,4 @@
 
   // on submit, show results
   submitButton.addEventListener("click", showResults);
-})();
+
